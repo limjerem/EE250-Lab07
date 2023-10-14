@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module referenceFile="grove_generic.fzp" moduleId="Grove - Sound Sensor_59a37b7c0beb0750e5a33b9d76fa2cc2_2">
+ <version>4</version>
+ <author>Alessandro Modenato</author>
+ <title>Sound Sensor</title>
+ <label>Grove</label>
+ <date>ven mag 27 2016</date>
+ <tags>
+  <tag>Grove</tag>
+  <tag>Seeed</tag>
+  <tag>Sound</tag>
+  <tag>Sensor</tag>
+ </tags>
+ <properties>
+  <property name="variant">variant 5</property>
+  <property name="family">grove</property>
+  <property name="interface">analog</property>
+  <property name="layer"></property>
+  <property name="part number"></property>
+  <property name="size">1x1</property>
+ </properties>
+ <taxonomy>part.dip.8.pins</taxonomy>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Microsoft Yahei,微软雅黑,Arial,Tahoma,Helvetica,STXihei,华文细黑,sans-serif'; color:#000000; background-color:#ffffff;">Grove - Sound Sensor can detect the sound strength of the environment.&lt;/span>&lt;/p>&lt;/body>&lt;/html></description>
+ <views>
+  <iconView>
+   <layers image="icon/Grove - Sound Sensor_2e9263c0d2ea416e95a29c67296ea8e8_4_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <breadboardView>
+   <layers image="breadboard/Grove - Sound Sensor_2e9263c0d2ea416e95a29c67296ea8e8_4_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/Grove - Sound Sensor_2e9263c0d2ea416e95a29c67296ea8e8_4_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/Grove - Sound Sensor_2e9263c0d2ea416e95a29c67296ea8e8_4_pcb.svg">
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper0"/>
+    <layer layerId="copper1"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector name="GND" id="connector0" type="female">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector0pin" layer="breadboard" terminalId="connector0terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector0pin" layer="schematic" terminalId="connector0terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector0pin" layer="copper0"/>
+     <p svgId="connector0pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="VCC" id="connector1" type="female">
+   <description>VCC</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector1pin" layer="breadboard" terminalId="connector1terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector1pin" layer="schematic" terminalId="connector1terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector1pin" layer="copper0"/>
+     <p svgId="connector1pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="SIG" id="connector3" type="female">
+   <description>signal</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector3pin" layer="breadboard" terminalId="connector3terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector3pin" layer="schematic" terminalId="connector3terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector3pin" layer="copper0"/>
+     <p svgId="connector3pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+ <url>https://www.seeedstudio.com/item_detail.html?p_id=752</url>
+</module>
