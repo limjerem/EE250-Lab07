@@ -12,16 +12,11 @@ SOUND_SENSOR_CHANNEL = 1
 GPIO.setmode(GPIO.BOARD)
 chan_list = [11]
 GPIO.setup(chan_list, GPIO.OUT)
-# Following commands control the state of the output
-# GPIO.output(pin, GPIO.HIGH)
-# GPIO.output(pin, GPIO.LOW)
 
 # Hardware SPI configuration:
 SPI_PORT = 0
 SPI_DEVICE = 0
 mcp = Adafruit_MCP3008.MCP3008(spi=SPI.SpiDev(SPI_PORT, SPI_DEVICE))
-# get reading from adc 
-# mcp.read_adc(adc_channel)
 
 # Constants for time intervals
 LED_BLINK_DELAY = 0.5
@@ -30,8 +25,8 @@ LED_BLINK_SHORT_DELAY = 0.2
 LED_ON_DURATION = 0.1
 
 # Thresholds for light and sound sensors (adjust these values based on experimentation)
-LIGHT_THRESHOLD = 500  # Adjust this value based on your light sensor's behavior
-SOUND_THRESHOLD = 700  # Adjust this value based on your sound sensor's behavior
+LIGHT_THRESHOLD = 50  # Adjust this value based on your light sensor's behavior
+SOUND_THRESHOLD = 70  # Adjust this value based on your sound sensor's behavior
 
 try:
     # LED blinks 5 times with 500ms on/off times at the beginning of the test
