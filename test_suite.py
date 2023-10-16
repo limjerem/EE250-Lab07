@@ -25,8 +25,8 @@ LED_BLINK_SHORT_DELAY = 0.2
 LED_ON_DURATION = 0.1
 
 # Thresholds for light and sound sensors (adjust these values based on experimentation)
-LIGHT_THRESHOLD = 50  # Adjust this value based on your light sensor's behavior
-SOUND_THRESHOLD = 70  # Adjust this value based on your sound sensor's behavior
+LIGHT_THRESHOLD = 500  # Adjust this value based on your light sensor's behavior
+SOUND_THRESHOLD = 700 # Adjust this value based on your sound sensor's behavior
 
 try:
     # LED blinks 5 times with 500ms on/off times at the beginning of the test
