@@ -38,7 +38,7 @@ try:
 
     # Read the light sensor at 100 ms intervals for 5 seconds
     start_time = time.time()
-    while time.time() - start_time < 5:
+    for i in range(50):
         light_value = mcp.read_adc(LIGHT_SENSOR_CHANNEL)
         light_status = "bright" if light_value > LIGHT_THRESHOLD else "dark"
         print(f"Light Sensor: Raw Value={light_value}, Status={light_status}")
